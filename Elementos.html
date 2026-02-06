@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos HTML - UPA ISC & ITI</title>
+    <meta name="description" content="Demostración de elementos HTML - UPA I. S. C. | I. T. I." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">UPA</a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="Elementos.html" class="active">Elementos</a></li>
+                <li><a href="Tablas.html">Tabla</a></li>
+                <li><a href="index.html#contacto" class="btn btn-contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>Elementos HTML</h1>
+                <p>Demostración completa de elementos HTML con estilos modernos.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Contenido de Elementos HTML</h2>
+                    <p>Explora los diferentes elementos y sus aplicaciones</p>
+                </header>
+
+                <div class="content-wrapper">
+                    <h2 id="titulo-pagina">Mi primera página en desarrollo Web - UPA ISC / ITI</h2>
+                    <p><strong>Ricardo Enrique Sanchez Rosales</strong></p>
+                    <p><em>Inteligencia Artificial</em></p>
+                    <p><strong>Universidad Politécnica de Atlacomulco</strong></p>
+                    <p>Programación Web</p>
+                    <p class="lead-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, incidunt quibusdam. Deleniti esse nesciunt, laboriosam hic, veniam officia temporibus odit dignissimos adipisci deserunt consequuntur totam soluta laborum placeat praesentium facilis.</p>
+
+                    <hr class="divider">
+
+                    <h2>Etiquetas de contenido</h2>
+                    
+                    <div class="element-group">
+                        <h3>1. Párrafo &lt;p&gt;</h3>
+                        <p>Este contenido de un párrafo por el momento no coloca saltos de línea, el texto es corrido.</p>
+                        <p>Qui commodo exceptur anim occaecat adipisicing sit duis do monim fugiat.</p>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>2. Preformateado &lt;pre&gt;</h3>
+                        <pre>Nulla non non excepteur ullamco cupidatat occaecat dolor. Velit ex culpa consectetur
+reprehenderit aute quis consectetur. Laboris irure ea nulla labore officia aute
+duis esse minim aliquip. Deserunt laboris ipsum exercitation amet eiusmod minim sunt culpa amet</pre>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>3. Cita &lt;blockquote&gt;</h3>
+                        <blockquote cite="https://www.w3schools.com/tags/tag_blockquote.asp">
+                            The &lt;blockquote&gt; tag specifies a section that is quoted from another source.<br>
+                            Browsers usually indent &lt;blockquote&gt; elements (look at example below to see how to remove)
+                        </blockquote>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>4. Listas Ordenadas &lt;ol&gt;</h3>
+                        <ol start="115" type="I" reversed>
+                            <li>Luis</li>
+                            <li>Maria</li>
+                            <li>Sofia</li>
+                            <li>Ramiro</li>
+                            <li>Diego</li>
+                            <li>Susana</li>
+                        </ol>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>5. Listas No Ordenadas &lt;ul&gt;</h3>
+                        <ul>
+                            <li>Uno</li>
+                            <li>Dos</li>
+                            <li>Tres</li>
+                            <li>Cuatro</li>
+                            <li>Cinco</li>
+                            <li>Seis</li>
+                            <li>Siete</li>
+                            <li>Ocho</li>
+                            <li>Nueve</li>
+                            <li>Diez</li>
+                        </ul>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>6. Lista de Definiciones &lt;dl&gt;</h3>
+                        <dl>
+                            <dt>HTML</dt>
+                            <dd>Lenguaje de marcas de Hipertexto</dd>
+                            <dt>CSS</dt>
+                            <dd>Hojas de Estilo en Cascada: Sirven para asignar presentación al contenido HTML</dd>
+                        </dl>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>7. Figura &lt;figure&gt;</h3>
+                        <figure>
+                            <img src="https://upatlacomulco.edu.mx/recursos/imagenes/logos/logo.svg" alt="Logo UPA" class="element-img">
+                            <figcaption>Logo de la Universidad Politécnica de Atlacomulco</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>8. Enlaces &lt;a&gt;</h3>
+                        <p>Para más información da clic <a href="Tablas.html" class="text-link">aquí</a></p>
+                        <p>Visita el <a href="https://www.ejemplo.com" title="Sitio web de ejemplo" class="text-link">sitio oficial</a> para más información.</p>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>9. Texto Enfatizado &lt;em&gt; y &lt;strong&gt;</h3>
+                        <p>Es <em>extremadamente importante</em> que completes el formulario.</p>
+                        <p><strong>No ignores esta advertencia</strong> bajo ninguna circunstancia.</p>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>10. Texto Secundario y Tachado &lt;small&gt; y &lt;s&gt;</h3>
+                        <p>Oferta: <s>99.99</s> <strong>79.99</strong> <small>IVA incluido</small></p>
+                        <p><small>Todos los derechos reservados.</small></p>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>11. Citas &lt;cite&gt; y &lt;q&gt;</h3>
+                        <p>Quedate conmigo esta noche <cite>y compartamos juntos</cite>: <q>ayer yo le pedí que esta noche vinieras y conmigo estuvieras</q>.</p>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>12. Definiciones y Abreviaturas &lt;dfn&gt; y &lt;abbr&gt;</h3>
+                        <p>VES <dfn>AQUEL</dfn> lucero que brilla en el cielo es que concede los tres bellos deseos amor</p>
+                        <p>y <abbr title="a ti se te realicen">los</abbr> deseos que pediste y que seas feliz :)</p>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>13. Código &lt;code&gt;</h3>
+                        <code>alert('Este es un mensaje desde js');</code>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>14. Fechas &lt;time&gt;</h3>
+                        <p>La reunión es el <time datetime="2026-01-24">24 de enero de 2026</time></p>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>15. Subíndices y Superíndices &lt;sub&gt; y &lt;sup&gt;</h3>
+                        <p>Fórmula del agua: H<sub>2</sub>O es cuestión de lógica</p>
+                        <p>Teorema de Pitágoras: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>16. Texto con Estilos &lt;i&gt;, &lt;b&gt; y &lt;u&gt;</h3>
+                        <p>La cobra filipina <i>vive en Filipinas</i> obvio es venenosa <b>Atención</b> Esta zona es de <u>alto riesgo</u>.</p>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>17. Texto Resaltado &lt;mark&gt;</h3>
+                        <p>Debí <mark>haber estudiado medicina</mark> no ingeniería</p>
+                        <p>En mayo <span class="highlight">me van a machetear</span> los narcos</p>
+                    </div>
+
+                    <div class="element-group">
+                        <h3>18. Saltos de Línea &lt;br&gt;</h3>
+                        <p>Ciudad: México<br>Código Postal: 50423</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Ricardo Enrique Sanchez Rosales ITI-502.</p>
+        </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="Volver arriba">&uarr;</button>
+
+    <script>
+        // Menú móvil
+        const toggle = document.querySelector('.nav-toggle');
+        const menu = document.querySelector('.nav-menu');
+
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.remove('active');
+            });
+        });
+
+        // Botón scroll top
+        const scrollTopBtn = document.querySelector('.scroll-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollTopBtn.classList.add('show');
+            } else {
+                scrollTopBtn.classList.remove('show');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>

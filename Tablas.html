@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos HTML - UPA ISC & ITI</title>
+    <meta name="description" content="Demostración de elementos HTML - UPA I. S. C. | I. T. I." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">UPA</a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="Elementos.html" class="active">Elementos</a></li>
+                <li><a href="Tablas.html">Tabla</a></li>
+                <li><a href="index.html#contacto" class="btn btn-contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>Tabla HTML</h1>
+                <p>La tabla representando a mi familia .</p>
+            </div>
+        </section>
+
+        <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>    
+<body>
+    <div>
+        <div>
+            <h1>Tablas en HTML - curso de programanci&oacute;n web </h1>
+            <table border="1">
+                <thead>
+                    <th>N&uacute;mero</th>
+                   <th>Edad</th>
+                   <th>Nombre</th>
+                   <th>Paterno</th>
+                   <th>Materno</th>
+                   <th>Rol</th>
+                   <th>Descripci&oacute;n/profesion</th>
+                   <th>imagen</th> 
+                </thead>
+                <hbody>
+                <tr>
+                    <td>1</td>
+                    <td>19</td>
+                    <td>Ricardo</td>
+                    <td>Sanchez</td>
+                    <td>Rosales</td>
+                    <td>Hijo Menor</td>
+                    <td>Estudiante</td>
+                    <td><img width="80" height="80" src="https://preview.redd.it/what-is-this-sub-even-about-v0-6dqgu62hkz3g1.jpeg?width=640&crop=smart&auto=webp&s=42f06de0185d6cc419895bf28f0591eb07cbb3d8"></td>
+                </hbody>
+                </tr>
+                <hbody>
+                <tr>
+                    <td>2</td>
+                    <td>22</td>
+                    <td>Anahi</td>
+                    <td>Sanchez</td>
+                    <td>Rosales</td>
+                    <td>Hija mayor</td>
+                    <td>Maeta</td>
+                    <td><img width="80" height="80" src="https://www.ciudad17.com/Naturaleza/wp-content/uploads/beluga.jpg"></td>
+                </hbody>
+                </tr>
+                <hbody>
+                <tr>
+                    <td>3</td>
+                    <td>42</td>
+                    <td>Susana</td>
+                    <td>Rosales</td>
+                    <td>Gonzalez</td>
+                    <td>Mama luchona</td>
+                    <td>Enfermera</td>
+                    <td><img width="80" height="80" src="https://i.scdn.co/image/ab67616d0000b27337c6a413cc4ed61b4c7266aa"></td>
+                </hbody>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="7"> Total de integrantes </td>
+                        <td>3</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p> Agregue la profesion a la descripcion espero no le moleste inge</p>
+        </div>
+    </div>
+</body>
+</html>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Ricardo Enrique Sanchez Rosales ITI-502.</p>
+        </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="Volver arriba">&uarr;</button>
+
+    <script>
+        // Menú móvil
+        const toggle = document.querySelector('.nav-toggle');
+        const menu = document.querySelector('.nav-menu');
+
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.remove('active');
+            });
+        });
+
+        // Botón scroll top
+        const scrollTopBtn = document.querySelector('.scroll-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollTopBtn.classList.add('show');
+            } else {
+                scrollTopBtn.classList.remove('show');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
