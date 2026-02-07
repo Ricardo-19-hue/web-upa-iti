@@ -6,5 +6,7 @@ function enviarMensaje(){
 
     console.log("Datos ingresados: ", nombre, correo, mensaje);
 
+    alert("Datos:\n" + "nombre: " + nombre + "\correo: " + correo + "\mensaje: " + mensaje )
+
     return false;
 }
