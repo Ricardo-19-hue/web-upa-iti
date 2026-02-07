@@ -10,6 +10,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="css/main.css" />
+
+        <script scr="js/main.js"></script> 
     </head>
     <body>
         <header class="header">
@@ -86,10 +88,10 @@
                     </header>
 
                     <form class="form">
-                        <input type="text" placeholder="Nombre" required />
-                        <input type="email" placeholder="Email" required />
-                        <textarea placeholder="Mensaje" rows="5" required></textarea>
-                        <button type="submit" class="btn btn-primary">Enviar Informaci&oacute;n</button>
+                        <input type="text" id="nombre" placeholder="Nombre" required />
+                        <input type="email" id="correo" placeholder="Email" required />
+                        <textarea placeholder="Mensaje" id="Mensaje" name="Mensaje" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary" onclick="return enviarMensaje()">Enviar Informaci&oacute;n</button>
                     </form>
                 </div>
             </section>
